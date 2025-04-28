@@ -81,7 +81,6 @@ const AddBlog = () => {
             <option value="Home & Living">Home & Living</option>
             <option value="Brand">Brands</option>
             <option value="Other">Other</option>
-
           </select>
         </div>
 
