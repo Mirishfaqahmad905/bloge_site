@@ -8,7 +8,7 @@ const Scholarship = () => {
 
   useEffect(() => {
     axios
-      .get('http://localhost:3000/get_scholarship_post')
+      .get('https://frontendjcsone.vercel.app/get_scholarship_post')
       .then((res) => {
         setData(res.data.data); // Adjust according to API response structure
       })
