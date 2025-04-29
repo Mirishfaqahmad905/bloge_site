@@ -19,7 +19,7 @@ const Login = () => {
     e.preventDefault();
   
     try {
-      const response = await fetch(`https://frontendjcsone.vercel.app/api/login`, {
+      const response = await fetch(`https://bloge-backend.vercel.app/api/login`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
