@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-// import './adminCss/Scholarshp.css'
+
 const ScholarshipPost = () => {
   const [formData, setFormData] = useState({
     name: '',
