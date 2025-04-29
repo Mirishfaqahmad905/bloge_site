@@ -9,7 +9,7 @@ const Crypto = () => {
   useEffect(() => {
     const fetchBlogs = async () => {
       try {
-        const response = await fetch("https://frontendjcsone.vercel.app/api/bloge");
+        const response = await fetch("https://bloge-backend.vercel.app/api/bloge");
         if (!response.ok) {
           throw new Error("Failed to fetch blogs");
         }
