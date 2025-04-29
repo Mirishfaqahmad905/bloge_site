@@ -18,7 +18,7 @@ const AddBlog = () => {
     e.preventDefault();
 
     try {
-      const response = await fetch('https://frontendjcsone.vercel.app/bloge/post', {
+      const response = await fetch('https://bloge-backend.vercel.app/bloge/post', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
