@@ -22,7 +22,7 @@ const ScholarshipPost = () => {
     e.preventDefault();
 
     try {
-      const response = await fetch('https://frontendjcsone.vercel.app/api/scholarships', {
+      const response = await fetch('https://bloge-backend.vercel.app/api/scholarships', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
