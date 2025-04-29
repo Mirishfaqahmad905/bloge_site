@@ -28,7 +28,7 @@ const Admin = () => {
     setError("");
     setSuccess("");
     try {
-      const response = await axios.post("https://frontendjcsone.vercel.app/api/login/admin", formData);
+      const response = await axios.post("https://bloge-backend.vercel.app/api/login/admin", formData);
       const { token, message } = response.data;
 
       // Save token to localStorage
