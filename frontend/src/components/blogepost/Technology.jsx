@@ -9,7 +9,7 @@ const Technology = () => {
   useEffect(() => {
     const fetchBlogs = async () => {
       try {
-        const response = await axios.get('https://frontendjcsone.vercel.app/api/bloge');
+        const response = await axios.get('https://bloge-backend.vercel.app/api/bloge');
         const techBlogs = response.data.filter(
           (blog) => blog.category.toLowerCase() === 'technology'
         );
