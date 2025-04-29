@@ -34,7 +34,7 @@ const Signup = () => {
 
     try {
       // Send data to the backend API
-      const response = await fetch('https://frontendjcsone.vercel.app/api/signup', {
+      const response = await fetch('https://bloge-backend.vercel.app/api/signup', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
